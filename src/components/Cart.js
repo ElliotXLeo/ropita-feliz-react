@@ -20,7 +20,7 @@ const Cart = ({ cart, addProduct }) => {
         <section className="col-md-12 my-2">
           <div className="card text-center bg-dark text-light animate__animated animate__fadeInUp">
             <a href={defaultProduct.image} target="_blank" rel="noreferrer" className="over-flow-h">
-              <img src={defaultProduct.image} className="card-img-top" alt={defaultProduct.name} />
+              <img src={defaultProduct.image} className="card-img-top" alt={defaultProduct.name} loading="lazy" />
             </a>
             <div className="card-body">
               <h4 className="card-title">{defaultProduct.name}</h4>
